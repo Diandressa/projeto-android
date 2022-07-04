@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #84E1AD;
+    background-color: rgb(226, 226, 226);
 }
 
 h1, h2, p {
@@ -21,29 +21,45 @@ header {
     padding: 30px 10px;
     height: 150px;
     margin: auto;
-    background-image: linear-gradient(to bottom, #3BD17F, #1A5C38);
+    background-image: linear-gradient(-45deg, #1c472b, #167235);
     color: white;
 }
 
 header h1 {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: -2px;
 }
 
 header p {
     text-align: center;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
+}
+
+nav {
+    display: block;
+    background-color: #0b361f;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 nav a {
-
+    
     font-weight: bold;
     font-size: 0.9em;
     margin-right: 10px;
     text-decoration: none;
     color: white;
+}
+
+nav a:hover{
+    background-color: #ececec;
+    color: #222;
+    padding: 10px;
+    border-radius: 2px;
+    transition: .3s ease-in-out;
 }
 
 main {
@@ -53,6 +69,7 @@ main {
     height: 100%;
     box-shadow: 0px 0px 8px #53615D;
     padding-bottom: 15px;
+    padding: 20px;
     border-radius: 0 0 10px 10px;
 }
 
@@ -71,13 +88,16 @@ span, main a {
 main p {
     padding: 15px;
     text-indent: 40px;
+    line-height: 25px;
 }
 
 main h3 {
     margin: 5px 15px;
     color: #154b2d; 
     font-family: idroid;
-    background-image: linear-gradient(to right, #84E1AD, transparent);
+    background-image: linear-gradient(to right, #a9c2b4, transparent);
+    padding: 8px;
+    border-radius: 10px;
 }
 
 picture img, img {
@@ -87,21 +107,21 @@ picture img, img {
 }
 
 .video {
-    background-color: #154b2d;
+    background-color: #0c3b22;
     padding: 15px 40px;
 }
 
 .titulo-box {
     color: white;
     font-weight: bold;
-    background-color: #39a367;
+    background-color: #0c3b22;
     padding: 10px;
     margin: 15px 15px 0 15px;
     border-radius: 10px 10px 0 0;
 }
 
 .titulo-box2 {
-    background-color: #aae0c2;
+    background-color: #c4d6cc;
     padding: 10px;
     margin: 0px 15px 15px 15px;
     border-radius: 0 0 10px 10px;
